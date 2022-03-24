@@ -15,4 +15,7 @@ public class HelloController {
     public String fruit() {
         return "apple banana kiwi orange lemon coconut";
     }
+
+    @GetMapping("/texts")
+    public String texts() {return "this text appears now";}
 }
